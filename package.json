@@ -9,8 +9,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "bugs": "https://github.com/zylx/jdy-cli/issues",
+  "keywords": [
+    "jdy-cli",
+    "js",
+    "plugin",
+    "cli"
+  ],
+  "author": "hufi",
+  "homepage": "https://github.com/zylx/jdy-cli",
   "license": "ISC",
   "devDependencies": {
     "chalk": "^4.1.0",
@@ -22,5 +29,8 @@
     "log-symbols": "^4.0.0",
     "ora": "^5.2.0",
     "update-notifier": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=8.6"
   }
 }
